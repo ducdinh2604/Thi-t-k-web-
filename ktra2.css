@@ -1,0 +1,102 @@
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 106, 106);
+  overflow: hidden;
+  top: 0;
+}
+ul li a{
+  text-decoration: none;
+  padding: 14px 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 15px;
+}
+ul li a.active{
+  background-color: rgb(255, 106, 106);
+}
+ul li a.act{
+  background-color: chocolate;
+  float: right;
+}
+ul li{
+  float: left;
+}
+ul li:last-child{
+  border-right: none;
+  float: right;
+}
+/* mouse over link */
+ a:hover {
+  color: rgb(255, 17, 0);
+  background-color: rgb(255, 255, 255);
+}
+/* selected link */
+a:active {
+  color: black;
+  background-color: rgb(255, 202, 198);
+}
+a:link {
+text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+.all {
+  width: 1400px;
+  margin: auto;
+}
+.trangto {
+  margin-top: 10px;
+  float: left;
+  width: 40%;
+  padding: 1px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.anhto {
+width: 550px;
+
+}
+.combo{
+  float: left;
+  padding: 1px;
+  width: 200px;
+  height: 150px;
+
+}
+.pass {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+}
+.pass1 {
+  color: rgb(5, 5, 5);
+  float: left;
+  padding: 1px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.web {
+  float: left;
+  width: 200px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.anh1minh{
+  float: left;
+  width: 300px;
+  height: auto;
+  padding:10px ;
+  margin-left: 30px;
+  top: 0;
+}
+.anhle{
+  width:400px
+}
+.tomtat{
+  font-size: 15px;
+  
+}
