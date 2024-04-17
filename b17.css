@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(255, 250, 243);
+    max-width: 1400px;
+    min-width: 1400px;
+}
+.div1 {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    height: 25px;
+    display: inline-block;
+    overflow: hidden;
+    position: fixed;
+    width: 1400px;
+}
+.div1 a:hover{
+    background-color: #ff0000;
+    border-radius: 30px;
+}
+.div1 img{
+    margin-left: 55px;
+    margin-top: 2px;
+}
+.div1 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 55px;
+    font-size: 15px;
+    text-align: center;
+}
+.anhto1{
+    float: right;
+    margin-top: 30px;
+}
+.chuto{
+    margin-left: 50px;
+    width: 650px;
+}
+.chuto h1{
+    font-size: 120px;
+    color: #ff4545;
+}
+h2{
+    font-size: 53px;
+}
+h4{
+    text-align: justify;
+}
+
+.playnow{
+    font-family: Bahnschrift;
+    margin-left: 50px;
+    background-color: #ff4545;
+    color: white;
+    height: 50px;
+    max-width: 140px;
+    border-radius: 30px;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+.readmore{
+    text-decoration: none;
+    font-family: Bahnschrift;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    max-width: 140px;
+    border-radius: 30px;
+    padding: 15px 50px;
+}
+.playnow:hover{
+    background-color: #000000;
+    color: white;
+}
+.readmore:hover{
+    background-color: #000000;
+    color: white ;
+}
+.bgnho{
+    margin-top: 275px;
+    background-image: url(background.JPG);
+    padding: 20px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 120px;
+}
+.thongtin{
+    text-align: center;
+    color:#ff4545;
+}
+
+.danhmuc{
+    width: 90%;
+    font-family: sans-serif;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 350px;
+}
+.chia{
+    display: flex;
+    justify-content: space-evenly;;
+}
+.block{
+    border-radius: 5px;
+    height: 320px;
+}
+.block img{
+    width: 350px;
+}
+.block p{
+    font-size: 12px;
+    color: #ff4545;
+}
+.readmore2{
+    font-family: Bahnschrift;
+    background-color: #ff4545;
+    color: white;
+    height: 50px;
+    max-width: 350px;
+    border-radius: 30px;
+    padding: 15px 113px;
+    text-decoration: none; 
+}
+.readmore2:hover{
+    background-color: #000000;
+    color: white;
+}
+h5{
+    width: 350px;
+    text-align: justify;
+}
