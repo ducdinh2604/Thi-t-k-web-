@@ -1,0 +1,141 @@
+
+ul{
+    list-style: none;
+    width: 1200px;
+    display: inline-block;
+    position: fixed;
+    top: 30;
+  }
+  ul li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+  }
+  ul li{
+    float: left;
+    margin-top: 15px;
+  }
+  ul img{
+    float: left;
+    margin-top: 15px;
+  }
+  ul li:last-child{
+    border-right: none;
+    float: right;
+  }
+   a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+  }
+  a:active {
+    color: black;
+    background-color: rgb(255, 202, 198);
+  }
+  a:link {
+  text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  .div1{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-left: 95px;
+  }
+  .taigame{
+    font-family: Bahnschrift;
+    margin-left: 50px;
+    background-color: #ff4545;
+    color: white;
+    height: 30px;
+    max-width: 140px;
+    border-radius: 30px;
+    padding: 10px 50px;
+    text-decoration: none;
+  }
+
+.danhmuc{
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    height: 350px;
+    float: left;
+    margin-left: 100px;
+}
+.chia{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    height: 200px;
+}
+.block img{
+    width: 180px;
+}
+.block p{
+    font-size: 12px;
+    color: #ff4545;
+}
+.readmore2{
+    font-family: Bahnschrift;
+    background-color: #ff4545;
+    color: white;
+    height: 50px;
+    max-width: 180px;
+    border-radius: 30px;
+    padding: 15px 113px;
+    text-decoration: none; 
+}
+.readmore2:hover{
+    background-color: #000000;
+    color: white;
+}
+h5{
+    width: 180px;
+    text-align: justify;
+}
+h4{
+    width: 180px;
+    text-align: justify;
+    font-size: 10px;
+}
+.block p{
+    width: 180px;
+    font-size: 10px;
+}
+.container{
+    width: 80%;
+    font-family: sans-serif;
+    margin: 0 auto;
+    height: 350px;
+}
+.container h1{ 
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.container_inner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block2{
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgb(42, 42, 42);
+}
+.block2 img{
+    margin: 20 20 20 20;
+    width: 300px;
+    max-width:300px;
+    justify-content: space-evenly;
+}
+.block2 a{
+    text-decoration: none;
+}
+.block2 h2{
+    margin: 20 80 20 20;
+}
