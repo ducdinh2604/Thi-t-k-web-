@@ -139,3 +139,12 @@ h4{
 .block2 h2{
     margin: 20 80 20 20;
 }
+.block h4:hover{
+    color: #ff4545;
+}
+.block h3:hover{
+    color: #ff4545;
+}
+hr{
+    width: 1200px;
+}
